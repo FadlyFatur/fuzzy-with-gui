@@ -205,9 +205,6 @@ def aggregation(clipped_list):
                     i.append(x_start)
                     i.append(x)
 
-    # Return list
-    # st.header("Composition")
-    # st.write(clipped_list)
     return clipped_list
 
 # Step 4. Defuzzification
@@ -298,11 +295,6 @@ def start_fuzzy(distance_input, delta_input):
     print("The robot will take following action:", resulting_action)
     st.write("Mobil Akan Melakukan aksi :", resulting_action)
 
-
-# st.title("Program dan Simulasi Fuzzy")
-st.sidebar.header('Program dan Simulasi Fuzzy')
-otomatis = st.sidebar.button('Otomatis')
-manual = st.sidebar.button('Manual')
 
 st.title('Simulasi Fuzzy pada kecepatan mobil')
 st.markdown("""
